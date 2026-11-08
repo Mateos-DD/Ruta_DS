@@ -1,0 +1,17 @@
+# Entorno y cachés
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Datos y modelos pesados
+datos/*
+!datos/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Secretos
+.env
